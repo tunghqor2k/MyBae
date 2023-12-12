@@ -208,10 +208,10 @@
     }
   }
   
-  var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-    if(!isChrome){
-      $('#iframeAudio').remove()
-  }
+  // var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+    // if(!isChrome){
+      // $('#iframeAudio').remove()
+  // }
   
   // setTimeout(() => {
     init()  
